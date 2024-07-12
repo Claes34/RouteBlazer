@@ -3,6 +3,7 @@
 
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
+[![Gitmoji][gitmoji-image]][gitmoji-url]
 
 RouteBlazer provides a layer on top of SwiftUI's `NavigationStack` component allowing you to build the navigationPath using various `Router`s that can follow each other, making it easy to split your app into separated features.
 Each Router you create will serve as a coordinator for one or more screens.
@@ -144,3 +145,5 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
+[gitmoji-image]: https://img.shields.io/badge/gitmoji-🥰-FFDD67
+[gitmoji-url]: https://gitmoji.dev
