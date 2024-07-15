@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95AE2BBD2C4512B2008EFB0C /* RouteBlazerSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE2BBC2C4512B2008EFB0C /* RouteBlazerSampleApp.swift */; };
+		95AE2BC12C4512B3008EFB0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AE2BC02C4512B3008EFB0C /* Assets.xcassets */; };
+		95AE2BC42C4512B3008EFB0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AE2BC32C4512B3008EFB0C /* Preview Assets.xcassets */; };
+		95AE2BCC2C4513C7008EFB0C /* FeatAViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE2BCB2C4513C7008EFB0C /* FeatAViewA.swift */; };
+		95AE2BCF2C4514D7008EFB0C /* FeatAViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE2BCE2C4514D7008EFB0C /* FeatAViewB.swift */; };
+		95AE2BD42C45163E008EFB0C /* RouteBlazer in Frameworks */ = {isa = PBXBuildFile; productRef = 95AE2BD32C45163E008EFB0C /* RouteBlazer */; };
+		95AE2BD62C45164D008EFB0C /* FeatARouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE2BD52C45164D008EFB0C /* FeatARouter.swift */; };
+		95AE2BD82C4516AA008EFB0C /* FeatARoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE2BD72C4516AA008EFB0C /* FeatARoutable.swift */; };
+		95AE2BDF2C451CD5008EFB0C /* FeatBRoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE2BD92C451CD5008EFB0C /* FeatBRoutable.swift */; };
+		95AE2BE02C451CD5008EFB0C /* FeatBRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE2BDA2C451CD5008EFB0C /* FeatBRouter.swift */; };
+		95AE2BE12C451CD5008EFB0C /* FeatBViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE2BDC2C451CD5008EFB0C /* FeatBViewA.swift */; };
+		95AE2BE22C451CD5008EFB0C /* FeatBViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE2BDD2C451CD5008EFB0C /* FeatBViewB.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95AE2BB92C4512B2008EFB0C /* RouteBlazerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteBlazerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AE2BBC2C4512B2008EFB0C /* RouteBlazerSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteBlazerSampleApp.swift; sourceTree = "<group>"; };
+		95AE2BC02C4512B3008EFB0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95AE2BC32C4512B3008EFB0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95AE2BCB2C4513C7008EFB0C /* FeatAViewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeatAViewA.swift; path = RouteBlazerSample/Views/FeatA/FeatAViewA.swift; sourceTree = SOURCE_ROOT; };
+		95AE2BCE2C4514D7008EFB0C /* FeatAViewB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatAViewB.swift; sourceTree = "<group>"; };
+		95AE2BD12C4515EB008EFB0C /* RouteBlazer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = RouteBlazer; path = ..; sourceTree = "<group>"; };
+		95AE2BD52C45164D008EFB0C /* FeatARouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatARouter.swift; sourceTree = "<group>"; };
+		95AE2BD72C4516AA008EFB0C /* FeatARoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatARoutable.swift; sourceTree = "<group>"; };
+		95AE2BD92C451CD5008EFB0C /* FeatBRoutable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatBRoutable.swift; sourceTree = "<group>"; };
+		95AE2BDA2C451CD5008EFB0C /* FeatBRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatBRouter.swift; sourceTree = "<group>"; };
+		95AE2BDC2C451CD5008EFB0C /* FeatBViewA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatBViewA.swift; sourceTree = "<group>"; };
+		95AE2BDD2C451CD5008EFB0C /* FeatBViewB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatBViewB.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95AE2BB62C4512B2008EFB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AE2BD42C45163E008EFB0C /* RouteBlazer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95AE2BB02C4512B2008EFB0C = {
+			isa = PBXGroup;
+			children = (
+				95AE2BD12C4515EB008EFB0C /* RouteBlazer */,
+				95AE2BBB2C4512B2008EFB0C /* RouteBlazerSample */,
+				95AE2BBA2C4512B2008EFB0C /* Products */,
+				95AE2BD22C45163E008EFB0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95AE2BBA2C4512B2008EFB0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95AE2BB92C4512B2008EFB0C /* RouteBlazerSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95AE2BBB2C4512B2008EFB0C /* RouteBlazerSample */ = {
+			isa = PBXGroup;
+			children = (
+				95AE2BBC2C4512B2008EFB0C /* RouteBlazerSampleApp.swift */,
+				95AE2BCA2C4513B0008EFB0C /* Views */,
+				95AE2BC02C4512B3008EFB0C /* Assets.xcassets */,
+				95AE2BC22C4512B3008EFB0C /* Preview Content */,
+			);
+			path = RouteBlazerSample;
+			sourceTree = "<group>";
+		};
+		95AE2BC22C4512B3008EFB0C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95AE2BC32C4512B3008EFB0C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95AE2BCA2C4513B0008EFB0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95AE2BCD2C451462008EFB0C /* FeatA */,
+				95AE2BDE2C451CD5008EFB0C /* FeatB */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		95AE2BCD2C451462008EFB0C /* FeatA */ = {
+			isa = PBXGroup;
+			children = (
+				95AE2BD02C451599008EFB0C /* Router */,
+				95AE2BCB2C4513C7008EFB0C /* FeatAViewA.swift */,
+				95AE2BCE2C4514D7008EFB0C /* FeatAViewB.swift */,
+			);
+			path = FeatA;
+			sourceTree = "<group>";
+		};
+		95AE2BD02C451599008EFB0C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				95AE2BD72C4516AA008EFB0C /* FeatARoutable.swift */,
+				95AE2BD52C45164D008EFB0C /* FeatARouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		95AE2BD22C45163E008EFB0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95AE2BDB2C451CD5008EFB0C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				95AE2BD92C451CD5008EFB0C /* FeatBRoutable.swift */,
+				95AE2BDA2C451CD5008EFB0C /* FeatBRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		95AE2BDE2C451CD5008EFB0C /* FeatB */ = {
+			isa = PBXGroup;
+			children = (
+				95AE2BDB2C451CD5008EFB0C /* Router */,
+				95AE2BDC2C451CD5008EFB0C /* FeatBViewA.swift */,
+				95AE2BDD2C451CD5008EFB0C /* FeatBViewB.swift */,
+			);
+			path = FeatB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95AE2BB82C4512B2008EFB0C /* RouteBlazerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95AE2BC72C4512B3008EFB0C /* Build configuration list for PBXNativeTarget "RouteBlazerSample" */;
+			buildPhases = (
+				95AE2BB52C4512B2008EFB0C /* Sources */,
+				95AE2BB62C4512B2008EFB0C /* Frameworks */,
+				95AE2BB72C4512B2008EFB0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouteBlazerSample;
+			packageProductDependencies = (
+				95AE2BD32C45163E008EFB0C /* RouteBlazer */,
+			);
+			productName = RouteBlazerSample;
+			productReference = 95AE2BB92C4512B2008EFB0C /* RouteBlazerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95AE2BB12C4512B2008EFB0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					95AE2BB82C4512B2008EFB0C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 95AE2BB42C4512B2008EFB0C /* Build configuration list for PBXProject "RouteBlazerSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95AE2BB02C4512B2008EFB0C;
+			productRefGroup = 95AE2BBA2C4512B2008EFB0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95AE2BB82C4512B2008EFB0C /* RouteBlazerSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95AE2BB72C4512B2008EFB0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AE2BC42C4512B3008EFB0C /* Preview Assets.xcassets in Resources */,
+				95AE2BC12C4512B3008EFB0C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95AE2BB52C4512B2008EFB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AE2BE22C451CD5008EFB0C /* FeatBViewB.swift in Sources */,
+				95AE2BE12C451CD5008EFB0C /* FeatBViewA.swift in Sources */,
+				95AE2BCF2C4514D7008EFB0C /* FeatAViewB.swift in Sources */,
+				95AE2BE02C451CD5008EFB0C /* FeatBRouter.swift in Sources */,
+				95AE2BCC2C4513C7008EFB0C /* FeatAViewA.swift in Sources */,
+				95AE2BD62C45164D008EFB0C /* FeatARouter.swift in Sources */,
+				95AE2BD82C4516AA008EFB0C /* FeatARoutable.swift in Sources */,
+				95AE2BBD2C4512B2008EFB0C /* RouteBlazerSampleApp.swift in Sources */,
+				95AE2BDF2C451CD5008EFB0C /* FeatBRoutable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		95AE2BC52C4512B3008EFB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95AE2BC62C4512B3008EFB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95AE2BC82C4512B3008EFB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RouteBlazerSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9492889CDS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claes34.RouteBlazerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95AE2BC92C4512B3008EFB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RouteBlazerSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9492889CDS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claes34.RouteBlazerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95AE2BB42C4512B2008EFB0C /* Build configuration list for PBXProject "RouteBlazerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AE2BC52C4512B3008EFB0C /* Debug */,
+				95AE2BC62C4512B3008EFB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95AE2BC72C4512B3008EFB0C /* Build configuration list for PBXNativeTarget "RouteBlazerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AE2BC82C4512B3008EFB0C /* Debug */,
+				95AE2BC92C4512B3008EFB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		95AE2BD32C45163E008EFB0C /* RouteBlazer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RouteBlazer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 95AE2BB12C4512B2008EFB0C /* Project object */;
+}

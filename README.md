@@ -9,6 +9,8 @@ RouteBlazer provides a layer on top of SwiftUI's `NavigationStack` component all
 Each Router you create will serve as a coordinator for one or more screens.
 On top of this, you will also be able to present a new NavigationStack from a Router by simply providing a new Router to present (sheet or fullscreen).
 
+![sample_app_gif](Resources/sample_app.gif)
+
 ⚠️ - In order to have iOS16 compatibility, this framework doesn't use the Observations framework. Support may be added if requested or submited with a PR.
 
 ## Installation
@@ -29,7 +31,7 @@ let package = Package(
 
 ### Routable enum for MyFeature
 ```swift
-enum MyFeatureRoute: Routable {
+enum MyFeatureRoutable: Routable {
   case onboarding
   case main
   case detail(item: Item)
@@ -52,14 +54,14 @@ enum MyFeatureRoute: Routable {
 ```swift
 final class MyFeatureRouter: Router {
   override var initialNavigationPathItem: NavigationPathItem {
-    return .init(route: MyFeatureRoute.onboarding, viewBuilder: self)
+    return .init(route: MyFeatureRoutable.onboarding, viewBuilder: self)
   }
 }
 
 extension MyFeatureRouter: RoutableViewBuilder {
   @ViewBuilder
   func buildView(route: any Routable) -> some View {
-    switch route as? MyFeatureRoute {
+    switch route as? MyFeatureRoutable {
     case .onboarding:
       MyFeatureOnboardingView(navDelegate: self)
     case .main:
@@ -78,7 +80,7 @@ extension MyFeatureRouter: RoutableViewBuilder {
 extension MyFeatureRouter: MyFeatureOnboardingNavigationDelegate {
   func onboardingIsDone() {
     // Push a new path item
-    push(to: NavigationPathItem(route: MyFeatureRoute.main, viewBuilder: self))
+    push(to: NavigationPathItem(route: MyFeatureRoutable.main, viewBuilder: self))
   }
 
   func someInteraction() {
@@ -124,7 +126,7 @@ In case you need to add features to the RoutingView (ex: setting up custom trans
   }
 ```
 
-[!Tip]
+[!TIP]
 Checkout [swiftui-navigation-transitions](https://github.com/davdroman/swiftui-navigation-transitions) if you are interested in easily customising transitions.
 
 
